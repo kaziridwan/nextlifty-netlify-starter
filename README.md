@@ -34,6 +34,10 @@ The goals of this project are:
       4. Add OAUTH_CLIENT_SECRET and set the value from the GitHub OAuth application
       5. You can store them however you like but secrets should be the most secure
       6. Make sure your environment variables are exposed on the deployment(s) you need
+5. Setup netlify identity
+    
+    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kaziridwan/nextlifty-with-identity-starter)
+6.   
 
 ---
 
