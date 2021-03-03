@@ -24,6 +24,7 @@ serverless functions
 
       ```
 3. Setup netlify identity and enable git-gateway
+4. Add github as [OAuth Provider](https://github.com/settings/developers)
 
 [Troubleshoot nextjs on netlify here](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/)
 
