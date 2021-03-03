@@ -19,10 +19,9 @@ serverless functions
     goto `public/admin/config.yml`
       ```
           backend:
-            name: github
+            name: git-gateway
             repo: OWNER/YOUR_GITHUB_REPO
             base_url: https://example.com/
-            auth_endpoint: api/auth
 
       ```
 4. [Set up netlify-cms oauth](https://www.npmjs.com/package/@openlab/vercel-netlify-cms-github)
