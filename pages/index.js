@@ -204,6 +204,7 @@ export default function Home() {
           box-sizing: border-box;
         }
       `}</style>
+      <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </div>
   )
 }
