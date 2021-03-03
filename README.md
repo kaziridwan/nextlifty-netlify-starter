@@ -25,6 +25,8 @@ serverless functions
       ```
 3. Setup netlify identity and enable git-gateway
 
+[Troubleshoot nextjs on netlify here](https://www.netlify.com/blog/2020/11/30/how-to-deploy-next.js-sites-to-netlify/)
+
 ---
 
 # Where are we right now and what are the implications?
