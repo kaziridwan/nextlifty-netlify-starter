@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: kaziridwan/nextjs-netlifycms-starter-20210302-045627
+  repo: kaziridwan/nextlifty-netlify-starter
 #   base_url: https://poc-20210302-045615.vercel.app/
 #   auth_endpoint: api/auth
   branch: main
