@@ -9,12 +9,11 @@ In future we are to create our own media upload library using git-gateway and ne
 serverless functions
 
 # Quickstart
-1. Deploy to vercel
+1. Deploy to netlify
 
-    [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/kaziridwan/nextlify-vercel-starter)
+    [![Deploy to Netlify](https://vercel.com/button)](https://app.netlify.com/start/deploy?repository=https://github.com/kaziridwan/nextlify-netlify-starter)
 
-2. Copy your vercel app url from vercel dashboard, and github repo address
-3. Configure netlify-cms config
+2. Configure netlify-cms config
 
     goto `public/admin/config.yml`
       ```
@@ -24,10 +23,7 @@ serverless functions
             base_url: https://example.com/
 
       ```
-4. Setup netlify identity
-    
-    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
-5. Disable netlify deployments, and enable [identity](https://www.netlifycms.org/docs/git-gateway-backend/#git-gateway-with-netlify-identity)
+3. Setup netlify identity and enable git-gateway
 
 ---
 
