@@ -11,7 +11,7 @@ serverless functions
 # Quickstart
 1. Deploy to netlify
 
-    [![Deploy to Netlify](https://vercel.com/button)](https://app.netlify.com/start/deploy?repository=https://github.com/kaziridwan/nextlify-netlify-starter)
+    [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kaziridwan/nextlify-netlify-starter)
 
 2. Configure netlify-cms config
 
