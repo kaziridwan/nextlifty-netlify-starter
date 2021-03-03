@@ -3,6 +3,10 @@ This is a static CMS written in nextjs and netlify-cms, using netlify's git-gate
 The goals of this project are:
 1. To create a zero-fee CMS template
 2. To be based off of completely opensource solutions, and no vendor lock-in
+3. TO use netlify's git-gateway and media upload functionality for easy media uploads
+
+In future we are to create our own media upload library using git-gateway and nextjs's
+serverless functions
 
 # Quickstart
 1. Deploy to vercel
@@ -37,7 +41,7 @@ The goals of this project are:
 5. Setup netlify identity
     
     [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
-6.   
+6. Disable netlify deployments, and enable [identity](https://www.netlifycms.org/docs/git-gateway-backend/#git-gateway-with-netlify-identity)
 
 ---
 
