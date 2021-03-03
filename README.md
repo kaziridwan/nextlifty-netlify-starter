@@ -24,23 +24,10 @@ serverless functions
             base_url: https://example.com/
 
       ```
-4. [Set up netlify-cms oauth](https://www.npmjs.com/package/@openlab/vercel-netlify-cms-github)
-   1. Create a GitHub OAuth application
-      1. Go to https://github.com/settings/developers.
-      2. Set Homepage URL to your site's homepage
-      3. Set Authorization callback URL to `https://YOUR_SITE_HERE/api/callback
-      4. Make a note of your client_id and client_secret
-   2. Setup Vercel environment variables
-      1. Go to your vercel dashboard, https://vercel.com
-      2. Navigate to your project then Settings > Environment Variables
-      3. Add OAUTH_CLIENT_ID and set the value from the GitHub OAuth application
-      4. Add OAUTH_CLIENT_SECRET and set the value from the GitHub OAuth application
-      5. You can store them however you like but secrets should be the most secure
-      6. Make sure your environment variables are exposed on the deployment(s) you need
-5. Setup netlify identity
+4. Setup netlify identity
     
     [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start)
-6. Disable netlify deployments, and enable [identity](https://www.netlifycms.org/docs/git-gateway-backend/#git-gateway-with-netlify-identity)
+5. Disable netlify deployments, and enable [identity](https://www.netlifycms.org/docs/git-gateway-backend/#git-gateway-with-netlify-identity)
 
 ---
 
